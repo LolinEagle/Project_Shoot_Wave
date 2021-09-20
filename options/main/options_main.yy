@@ -1,0 +1,16 @@
+{
+  "option_gameguid": "fec6acf4-bf0f-4447-8f1d-d90f9daca6b6",
+  "option_game_speed": 60,
+  "option_mips_for_3d_textures": true,
+  "option_draw_colour": 4294967295,
+  "option_window_colour": 4278190080,
+  "option_steam_app_id": "0",
+  "option_sci_usesci": false,
+  "option_author": "LolinEagle",
+  "option_lastchanged": "04 March 2021 15:16:18",
+  "option_spine_licence": true,
+  "resourceVersion": "1.2",
+  "name": "Main",
+  "tags": [],
+  "resourceType": "GMMainOptions",
+}
