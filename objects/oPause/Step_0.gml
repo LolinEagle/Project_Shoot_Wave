@@ -23,7 +23,9 @@ if(global.gamePaused && room != room_first){
 			scCameraGetView();
 			option = !option;
 			if(option){
-				instance_create_layer(cx + RES_W_HALF, cy + 225, "LayerFirst", oOption);
+				instance_create_layer(
+					cx + RES_W_HALF, cy + 225, "LayerFirst", oOption
+				);
 			}else{
 				instance_destroy(oOption);
 			}
@@ -43,7 +45,10 @@ if(global.gamePaused && room != room_first){
 	//Go UP or DOWN
 	if(!option){
 		//Press UP
-		if(keyboard_check_pressed(ord("Z")) || keyboard_check_pressed(vk_up)){
+		if(
+			keyboard_check_pressed(ord("Z"))
+			|| keyboard_check_pressed(vk_up)
+		){
 			pauseCursor--;
 			if(!pauseConfirmation){
 				if(pauseCursor < 0){pauseCursor = 3;}
@@ -53,7 +58,10 @@ if(global.gamePaused && room != room_first){
 		}
 		
 		//Press DOWN
-		if(keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down)){
+		if(
+			keyboard_check_pressed(ord("S"))
+			|| keyboard_check_pressed(vk_down)
+		){
 			pauseCursor++;
 			if(!pauseConfirmation){
 				if(pauseCursor > 3){pauseCursor = 0;}

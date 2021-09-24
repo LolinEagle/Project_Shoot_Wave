@@ -9,4 +9,3 @@
 #macro RES_H 1080
 #macro RES_W_HALF 960
 #macro RES_H_HALF 540
-#macro CREDIT RES_H / 12

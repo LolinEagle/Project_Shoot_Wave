@@ -61,7 +61,9 @@ if(!global.gamePaused){
 	}
 
 	//Released
-	if(mouse_check_button_released(mb_left) && weaponSlot != 0){firing = false;}
+	if(mouse_check_button_released(mb_left) && weaponSlot != 0){
+		firing = false;
+	}
 	
 	//Reload
 	if(keyboard_check_pressed(ord("R"))){reload = true;}

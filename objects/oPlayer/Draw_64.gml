@@ -23,13 +23,17 @@ if(!global.gamePaused){
 	draw_set_color(c_white);
 	switch(weaponSlot){
 		case 0: 
-			draw_sprite(sKnife, 0, 12, 48); break;
+			draw_sprite(sKnife, 0, 12, 48);
+		break;
 		case 1:
-			draw_text(12, 48, string(handgun) + " / " + string(handgunMax) + " Handgun"); break;
+			draw_text(12, 48, scString(handgun, handgunMax) + " Handgun");
+		break;
 		case 2:
-			draw_text(12, 48, string(shotgun) + " / " + string(shotgunMax) + " Shotgun"); break;
+			draw_text(12, 48, scString(shotgun, shotgunMax) + " Shotgun");
+		break;
 		case 3:
-			draw_text(12, 48, string(rifle) + " / " + string(rifleMax) + " Rifle"); break;
+			draw_text(12, 48, scString(rifle, rifleMax) + " Rifle");
+		break;
 		default: break;
 	}
 }

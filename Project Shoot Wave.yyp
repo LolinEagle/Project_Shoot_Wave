@@ -43,6 +43,7 @@
     {"id":{"name":"snShotgunBenelliM3ClipIn","path":"sounds/snShotgunBenelliM3ClipIn/snShotgunBenelliM3ClipIn.yy",},"order":8,},
     {"id":{"name":"sBullet7mm62","path":"sprites/sBullet7mm62/sBullet7mm62.yy",},"order":1,},
     {"id":{"name":"oTitle","path":"objects/oTitle/oTitle.yy",},"order":1,},
+    {"id":{"name":"scString","path":"scripts/scString/scString.yy",},"order":12,},
     {"id":{"name":"snBeretta92Shot","path":"sounds/snBeretta92Shot/snBeretta92Shot.yy",},"order":7,},
     {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},"order":0,},
     {"id":{"name":"sTileSet","path":"sprites/sTileSet/sTileSet.yy",},"order":1,},
@@ -133,7 +134,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.4.583",
   },
   "resourceVersion": "1.4",
   "name": "Project Shoot Wave",

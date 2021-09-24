@@ -20,6 +20,6 @@ if(showText && iTitle >= FPS){
 //Credit
 if(creditOn){
 	scDrawSet(fArial48, fa_center, fa_bottom);
-	draw_text(RES_W_HALF, CREDIT * 06, "Lead Developer");
-	draw_text(RES_W_HALF, CREDIT * 07, "LolinEagle");
+	draw_text(RES_W_HALF, RES_H_HALF - 32, "Lead Developer");
+	draw_text(RES_W_HALF, RES_H_HALF + 32, "LolinEagle");
 }

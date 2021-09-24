@@ -15,4 +15,10 @@ x = clamp(x, viewWidthHalf, room_width - viewWidthHalf);
 y = clamp(y, viewHeightHalf, room_height - viewHeightHalf);
 
 //Camera set view
-camera_set_view_pos(cam, x - viewWidthHalf, y - viewHeightHalf);
+if(!instance_exists(oPlayer)){
+	camera_set_view_pos(cam, x - viewWidthHalf, y - viewHeightHalf);
+}else{
+	var _x = x - viewWidthHalf - RES_W / 4;
+	var _y = y - viewHeightHalf - RES_H / 4;
+	camera_set_view_pos(cam, _x, _y);
+}
