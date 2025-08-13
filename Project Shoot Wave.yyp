@@ -35,7 +35,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2.3.4.583",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Project Shoot Wave",
   "resources":[
@@ -68,7 +68,6 @@
     {"id":{"name":"oTitle2","path":"objects/oTitle2/oTitle2.yy",},},
     {"id":{"name":"oTitle3","path":"objects/oTitle3/oTitle3.yy",},},
     {"id":{"name":"oTitleCommands","path":"objects/oTitleCommands/oTitleCommands.yy",},},
-    {"id":{"name":"oTitleCredit","path":"objects/oTitleCredit/oTitleCredit.yy",},},
     {"id":{"name":"oTitleScoreboard","path":"objects/oTitleScoreboard/oTitleScoreboard.yy",},},
     {"id":{"name":"oTitleVersion","path":"objects/oTitleVersion/oTitleVersion.yy",},},
     {"id":{"name":"rParent","path":"rooms/rParent/rParent.yy",},},

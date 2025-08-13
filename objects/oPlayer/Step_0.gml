@@ -66,7 +66,12 @@ if(!global.gamePaused){
 	}
 	
 	//Reload
-	if(keyboard_check_pressed(ord("R"))){reload = true;}
+	if (keyboard_check_pressed(ord("R")))
+	|| (weaponSlot == 1 && handgun <= 0 && handgunMax > 0)
+	|| (weaponSlot == 2 && shotgun <= 0 && shotgunMax > 0)
+	|| (weaponSlot == 3 && rifle <= 0 && rifleMax > 0){
+		reload = true;
+	}
 	scReload(1);
 	scReload(2);
 	scReload(3);

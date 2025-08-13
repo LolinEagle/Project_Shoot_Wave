@@ -24,7 +24,6 @@
     {"name":"oTitle2","order":6,"path":"objects/oTitle2/oTitle2.yy",},
     {"name":"oTitle3","order":7,"path":"objects/oTitle3/oTitle3.yy",},
     {"name":"oTitleCommands","order":4,"path":"objects/oTitleCommands/oTitleCommands.yy",},
-    {"name":"oTitleCredit","order":2,"path":"objects/oTitleCredit/oTitleCredit.yy",},
     {"name":"oTitleScoreboard","order":5,"path":"objects/oTitleScoreboard/oTitleScoreboard.yy",},
     {"name":"oTitleVersion","order":3,"path":"objects/oTitleVersion/oTitleVersion.yy",},
     {"name":"rParent","order":1,"path":"rooms/rParent/rParent.yy",},
