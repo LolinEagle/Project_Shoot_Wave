@@ -12,6 +12,7 @@ instance_create_layer(0, 0, layer, oScore);
 //Globals Variable
 global.gameDebug = false;
 global.gamePaused = false;
+global.gamePausedImageSpeed = array_create(0);
 global.healPlayer = 0;
 
 //Option

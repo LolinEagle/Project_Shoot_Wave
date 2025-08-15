@@ -6,7 +6,9 @@ if(_pause && room != room_first && !global.gamePaused){
 	
 	//Stop image_speed and speed
 	if(global.gamePaused){
+		array_delete(global.gamePausedImageSpeed, 0, array_length(global.gamePausedImageSpeed));
 		with(all){
+			array_push(global.gamePausedImageSpeed, [id, image_speed, speed])
 			image_speed = 0;
 			speed = 0;
 		}
